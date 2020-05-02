@@ -15,7 +15,7 @@ you have a field 'sentence_original' and a field 'sentence_translate' and you ha
 
 Table will be rendered using javascript
 
-![Anki-Example]./doc/image/screenshot_anki_1.png
+![Anki-Example](/doc/image/screenshot_anki_1.png)
 
 # external dependeny
 used project: popper, tippy
