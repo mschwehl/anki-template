@@ -1,7 +1,7 @@
 # anki-template
 Anki-Template with arbitrary example-sentences
 
-# Why
+# why
 
 Learning words only make sense with context, you need to have example sentences
 
@@ -11,16 +11,19 @@ this template works in ankidroid as well
 
 # usage
 
-you have a field 'sentence_original' and a field 'sentence_translate' and you have to use the delimiter '|'
+you have a field 'Beispielsatz_DE' and a field 'Beispielsatz_RO' and you have to use the delimiter '|' between the sentences. The number of the sentences must match for proper reference
 
-Table will be rendered using javascript
+this fields will be rendered as a HTML-Table using javascript, as well a popup will be provided for each entry
 
 ![Anki-Example](/doc/image/screenshot_anki_1.png)
 
 # external dependeny
-used project: popper, tippy
+used js-project: popper, tippy
 
-min.js included, otherwise the phone have to be online
+minified versions from the js-libs are included, otherwise the phone have to be online all the time
 
 # status
 quick hack, more to come
+Idea: Coloring cards by gender (source: tags)
+
+stay tuned!
